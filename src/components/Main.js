@@ -2,9 +2,51 @@ import React from 'react'
 
 const Main = () => {
     return (
-        <div className='wrapper'>
+        <main>
             <h1>content</h1>
-        </div>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+            <h1>content</h1>
+        </main>
     )
 }
 
