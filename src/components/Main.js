@@ -1,51 +1,10 @@
 import React from 'react'
+import CardsList from '../features/cards/CardsList'
 
 const Main = () => {
     return (
         <main>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
-            <h1>content</h1>
+            <CardsList />
         </main>
     )
 }

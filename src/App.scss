@@ -1,12 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 
 $header-height: 60px;
-$footer-height: 20px;
+$footer-height: 25px;
 
 
 main {
     padding-top: $header-height;
-    min-height: calc(100vh - 40px);
+    min-height: calc(100vh - #{$footer-height} - 15px);
     background: rgb(230,2,127);
     background: linear-gradient(90deg, rgba(230,2,127,1) 0%, rgba(50,166,224,1) 100%);
 }
@@ -18,7 +18,7 @@ header {
     background: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 footer {
@@ -26,7 +26,7 @@ footer {
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    height: 20px;
+    height: $footer-height;
     background: white;
 }
 
@@ -41,7 +41,7 @@ footer {
     margin-bottom: 10px;
 }
 
-// .logos-center {
-//     width: fit-content;
-//     margin: auto;
-// }
+.logos-center {
+   position: absolute;
+   left: calc(50vw - 70px);
+}
