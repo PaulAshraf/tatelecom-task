@@ -6,7 +6,7 @@ const Card = (props) => {
     const imgUrl = props.imgUrl
 
     return (
-        <div className='card'>
+        <div className='ngo-card'>
             <img src={imgUrl} alt={title} />
             <div className='name'>{title}</div>
             <div className='donate'>تبرع الأن</div>

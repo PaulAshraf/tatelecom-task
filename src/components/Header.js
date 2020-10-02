@@ -5,10 +5,10 @@ import { ReactComponent as Profile } from '../logos/Vector.svg'
 
 const Header = () => {
     return (
-        <header>
+        <div className='top-bar'>
             <Profile className='logos-left'/>
             <HeadingLogo className='logos-center'/>
-        </header>
+        </div>
     )
 }
 

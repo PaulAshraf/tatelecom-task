@@ -1,11 +1,12 @@
 
-$card-width: 120px;
-$card-height: 230px;
+$card-width: 110px;
+$card-height: 200px;
 
 h3 {
     color: white;
     text-align: right;
     margin: 0.4em;
+    margin-top: 0.9em;
 }
 
 .wrapper {
@@ -15,10 +16,10 @@ h3 {
     justify-content: space-around;
 }
 
-.card {
+.ngo-card {
 
     img {
-        max-width: $card-width - 2px;
+        max-width: $card-width - 20px;
         max-height: $card-height * 0.6;
         margin-left: auto;
         margin-right: auto;
@@ -30,9 +31,9 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 0.9em;
+    font-size: 0.85em;
     font-weight: bold;
-    margin: 2px;
+    margin: 6px;
 
     @media (min-width: 600px)  {
         margin: 20px;
