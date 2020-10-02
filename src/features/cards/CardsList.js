@@ -21,7 +21,7 @@ const CardsList = () => {
 
     return (
         <div>
-            <h1>الجمعيات الخيرية</h1>
+            <h3>الجمعيات الخيرية</h3>
             <div className='wrapper'>
                 {cardStatus === 'loading' ? 
                     <Spinner animation="border" variant='light'/> : cardStatus === 'error' ? <Alert variant='danger' >{error}</Alert> :

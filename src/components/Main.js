@@ -3,9 +3,9 @@ import CardsList from '../features/cards/CardsList'
 
 const Main = () => {
     return (
-        <main>
+        <div className='main'>
             <CardsList />
-        </main>
+        </div>
     )
 }
 

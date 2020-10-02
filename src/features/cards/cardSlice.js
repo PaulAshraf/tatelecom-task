@@ -9,7 +9,6 @@ const initialState = {
 
 export const fetchCards = createAsyncThunk('cards/fetchCards', async () => {
   const response = await axios.get('https://megakheir.herokuapp.com/ngos')
-  console.log(response.data.data)
   return response.data.data
 })
 

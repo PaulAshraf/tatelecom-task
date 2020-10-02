@@ -4,14 +4,16 @@ $header-height: 60px;
 $footer-height: 25px;
 
 
-main {
-    padding-top: $header-height;
+.main {
+    // padding-top: $header-height;
+    margin-top: $header-height;
     min-height: calc(100vh - #{$footer-height} - 15px);
     background: rgb(230,2,127);
     background: linear-gradient(90deg, rgba(230,2,127,1) 0%, rgba(50,166,224,1) 100%);
 }
 
 header {
+    top: 0;
     width: 100%;
     height: $header-height;
     position: fixed;        

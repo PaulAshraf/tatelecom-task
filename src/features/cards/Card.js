@@ -8,10 +8,8 @@ const Card = (props) => {
     return (
         <div className='card'>
             <img src={imgUrl} alt={title} />
-            {title}
-            <div className='donate'>
-                تبرع الأن
-            </div>
+            <div className='name'>{title}</div>
+            <div className='donate'>تبرع الأن</div>
         </div>
     )
 }

@@ -1,8 +1,11 @@
 
-h1 {
+$card-width: 120px;
+$card-height: 230px;
+
+h3 {
     color: white;
     text-align: right;
-    margin: 1em;
+    margin: 0.4em;
 }
 
 .wrapper {
@@ -15,32 +18,45 @@ h1 {
 .card {
 
     img {
-        max-width: 200px;
-        height: 200px;
+        max-width: $card-width - 2px;
+        max-height: $card-height * 0.6;
+        margin-left: auto;
+        margin-right: auto;
         margin: auto;
+        // margin-top: auto;
+        // margin-bottom: 10px;
     }
     
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 1.5em;
+    font-size: 0.9em;
     font-weight: bold;
-    margin: 10px;
-    width: 30%;
-    height: 400px;
+    margin: 2px;
+
+    @media (min-width: 600px)  {
+        margin: 20px;
+    }
+
+    width: $card-width;
+    height: $card-height;
     text-align: center;
     background: white;
     border-radius: 10px;
     color: rgba(50,166,224,1);
 
+
     .donate {
         width: 80%;
-        height: 50px;    
+        height: 30px;    
+        margin-left: auto;
+        margin-right: auto;
         margin: auto;
+        margin-bottom: 5px;
         color: white;
         background: rgba(230,2,127,1);
         border-radius: 5px;
-        vertical-align: middle;
+        // vertical-align: middle;
     }
 }
 
