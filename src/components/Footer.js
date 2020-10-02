@@ -7,9 +7,9 @@ import { ReactComponent as Logo } from '../logos/TA.svg'
 const Footer = () => {
     return (
         <footer>
-                <Logo className='logos-left'/>
-                <Facebook className='logos'/>
-                <Instagram className='logos'/>
+                <a href='https://www.tatelecom.com/' className='logos-left' ><Logo /></a>
+                <a href='https://www.facebook.com/TAtelecom/' className='logos' ><Facebook /></a>
+                <a href='https://www.instagram.com/tatelecom/' className='logos'><Instagram /></a>
         </footer>
     )
 }
