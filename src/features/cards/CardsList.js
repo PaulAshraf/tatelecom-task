@@ -14,7 +14,6 @@ const CardsList = () => {
     const error = useSelector((state) => state.cards.error)
 
     useEffect(() => {
-        console.log(cardStatus)
         if (cardStatus === 'idle') {
             dispatch(fetchCards())
           }
@@ -25,7 +24,7 @@ const CardsList = () => {
             <h1>الجمعيات الخيرية</h1>
             <div className='wrapper'>
                 {cardStatus === 'loading' ? 
-                    <Spinner /> : cardStatus === 'error' ? <Alert variant='danger' >{error}</Alert> :
+                    <Spinner animation="border" variant='light'/> : cardStatus === 'error' ? <Alert variant='danger' >{error}</Alert> :
                         cards.map(card => <Card key={card.pkID} title={card.Name} imgUrl={card.Logo} />)}
             </div>
         </div>
