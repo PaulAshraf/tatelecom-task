@@ -2,8 +2,12 @@ import React from 'react'
 
 const Card = (props) => {
 
-    const title = props.title
+    let title = props.title
     const imgUrl = props.imgUrl
+
+    if(title.split(' ').length > 4){
+        title = title.split(' ').slice(0,3).join(' ') + ' ...'
+    }
 
     return (
         <div className='ngo-card'>
