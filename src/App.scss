@@ -5,7 +5,6 @@ $footer-height: 25px;
 
 
 .main {
-    // padding-top: $header-height;
     margin-top: $header-height;
     min-height: calc(100vh - #{$footer-height} - 15px);
     background: rgb(230,2,127);
